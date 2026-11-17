@@ -1,0 +1,14 @@
+version: "1.0"
+metadata:
+  team: core-platform
+  service_tier: tier-2-standard
+ownership:
+  security_contact: security-core@sotatek.com
+  slack_channel: "#alerts-security-core"
+  escalation_contact: lead-core@sotatek.com
+notification_policy:
+  min_severity: HIGH
+  critical_delivery: immediate
+  high_delivery: immediate
+  medium_delivery: daily_digest
+  low_delivery: suppress
